@@ -20,10 +20,10 @@
         </nav>
         <!-- Verified Student Badge Pill (Dinamis Auth) -->
         <div
-          class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-secondary-container/15 text-secondary font-label-sm text-label-sm w-fit">
-          <span class="material-symbols-outlined text-[16px] text-secondary">school</span>
+          class="inline-flex items-center gap-space-xs px-3 py-1.5 rounded-full bg-[#E0F2FE] border border-[#BAE6FD] text-[#0369A1] font-label-sm text-label-sm w-fit font-bold shadow-xs">
+          <span class="material-symbols-outlined text-[16px] text-[#0284C7]">school</span>
           <span>Penjual Terverifikasi KTM • {{ Auth::user()->name ?? 'Mahasiswa' }}</span>
-          <span class="material-symbols-outlined text-[16px] text-tertiary ml-0.5">verified</span>
+          <span class="material-symbols-outlined text-[16px] text-[#059669] ml-0.5">verified</span>
         </div>
       </div>
     </div>
@@ -33,32 +33,32 @@
       <div class="flex flex-col gap-space-xs">
         <div class="flex items-center gap-space-xs">
           <span
-            class="px-space-xs py-space-2xs rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider">Listing
+            class="px-2.5 py-1 rounded-md bg-[#F5F3FF] border border-[#D6C7FF] text-[#5B47E0] font-label-sm text-label-sm uppercase tracking-wider font-bold">Listing
             Baru</span>
-          <span class="text-outline font-label-sm text-label-sm">• Katalog Re-Commerce Kampus</span>
+          <span class="text-[#7E70A6] font-label-sm text-label-sm">• Katalog Re-Commerce Kampus</span>
         </div>
-        <h1 class="font-headline-lg text-headline-lg text-on-surface font-bold tracking-tight">Jual Barang Bekasmu</h1>
-        <p class="font-body-md text-body-md text-on-surface-variant max-w-3xl">
+        <h1 class="font-headline-lg text-headline-lg text-[#1A0D3F] font-bold tracking-tight">Jual Barang Bekasmu</h1>
+        <p class="font-body-md text-body-md text-[#4A3B75] max-w-3xl">
           Isi detail barang preloved milikmu untuk ditinjau dan langsung ditayangkan di katalog ugoods sesama mahasiswa
           &amp; mitra se-Jabodetabek.
         </p>
       </div>
       <!-- Escrow & Single Unit Tip Banner -->
       <div
-        class="mt-space-md p-space-md rounded-xl bg-surface-container-low flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
+        class="mt-space-md p-space-md rounded-2xl bg-white border border-[#E9E3FB] shadow-sm shadow-purple-100/50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
         <div class="flex items-start sm:items-center gap-space-sm">
           <div
-            class="w-9 h-9 rounded-lg bg-tertiary-container/30 text-tertiary flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-[20px]">bolt</span>
+            class="w-9 h-9 rounded-xl bg-[#D1FAE5] border border-[#A7F3D0] text-[#065F46] flex items-center justify-center shrink-0">
+            <span class="material-symbols-outlined text-[20px] text-[#059669]">bolt</span>
           </div>
-          <p class="font-body-sm text-body-sm text-on-surface-variant leading-snug">
-            <strong class="text-on-surface font-semibold">Stok Unit Tunggal (1 Unit):</strong> Barang preloved personal
-            mahasiswa otomatis berstatus habis saat pembayaran via <span class="text-secondary font-medium">Midtrans
+          <p class="font-body-sm text-body-sm text-[#4A3B75] leading-snug">
+            <strong class="text-[#1A0D3F] font-bold">Stok Unit Tunggal (1 Unit):</strong> Barang preloved personal
+            mahasiswa otomatis berstatus habis saat pembayaran via <span class="text-[#0284C7] font-semibold">Midtrans
               Gateway</span> &amp; COD terkonfirmasi.
           </p>
         </div>
-        <div class="shrink-0 flex items-center gap-space-xs text-tertiary font-label-sm text-label-sm">
-          <span class="material-symbols-outlined text-[16px]">format_image_left</span>
+        <div class="shrink-0 flex items-center gap-space-xs text-[#065F46] font-label-sm text-label-sm font-bold bg-[#D1FAE5] border border-[#A7F3D0] px-2.5 py-1 rounded-lg">
+          <span class="material-symbols-outlined text-[16px] text-[#059669]">format_image_left</span>
           <span>Rekber Aman ugoods</span>
         </div>
       </div>
@@ -72,11 +72,11 @@
 
         @if (isset($errors) && $errors->any())
           <div
-            class="lg:col-span-12 p-4 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-400 text-xs flex items-start gap-2.5">
-            <span class="material-symbols-outlined text-[18px] shrink-0 mt-0.5">error</span>
+            class="lg:col-span-12 p-4 rounded-xl bg-[#FFE4E6] border border-[#FECDD3] text-[#9F1239] text-xs flex items-start gap-2.5 shadow-sm shadow-rose-900/[0.04]">
+            <span class="material-symbols-outlined text-[18px] text-[#E11D48] shrink-0 mt-0.5">error</span>
             <div>
-              <span class="font-semibold block text-rose-300">Harap periksa isian formulir berikut:</span>
-              <ul class="list-disc list-inside space-y-0.5 text-slate-300 mt-1">
+              <span class="font-bold block text-[#9F1239]">Harap periksa isian formulir berikut:</span>
+              <ul class="list-disc list-inside space-y-0.5 text-[#9F1239] mt-1 font-medium">
                 @foreach ($errors->all() as $error)
                   <li>{{ $error }}</li>
                 @endforeach
@@ -88,72 +88,72 @@
         <!-- LEFT COLUMN (Upload, Condition, Location) -->
         <div class="lg:col-span-5 flex flex-col gap-space-lg">
           <!-- CARD 1: FOTO BARANG (Dropzone & Thumbnails) -->
-          <div class="p-space-lg rounded-xl bg-surface-container-low flex flex-col gap-space-md">
+          <div class="p-space-lg rounded-2xl bg-white border border-[#E9E3FB] shadow-md shadow-purple-100/50 flex flex-col gap-space-md">
             <div class="flex items-center justify-between">
               <div>
-                <h2 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Foto Barang</h2>
-                <p class="font-body-sm text-body-sm text-on-surface-variant">Maksimal resolusi jernih.</p>
+                <h2 class="font-headline-sm text-headline-sm text-[#1A0D3F] font-bold">Foto Barang</h2>
+                <p class="font-body-sm text-body-sm text-[#4A3B75]">Maksimal resolusi jernih.</p>
               </div>
               <span
-                class="px-space-xs py-space-2xs rounded bg-surface-container-highest text-on-surface-variant font-label-sm text-label-sm">Foto
+                class="px-2.5 py-1 rounded bg-[#F5F3FF] border border-[#D6C7FF] text-[#5B47E0] font-label-sm text-label-sm font-semibold">Foto
                 Produk</span>
             </div>
             <!-- Drag and Drop Active Box -->
             <div
-              class="relative w-full p-space-lg rounded-xl bg-surface-container-lowest flex flex-col items-center justify-center text-center cursor-pointer hover:bg-surface-container transition-all group">
+              class="relative w-full p-space-lg rounded-xl bg-[#FAF8FF] border-2 border-dashed border-[#D6C7FF] hover:border-[#5B47E0] flex flex-col items-center justify-center text-center cursor-pointer hover:bg-white transition-all group">
               <input accept="image/*" aria-label="Unggah foto barang preloved" name="image" id="productImageInput"
                 onchange="previewProductImage(this)" class="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                 type="file" required>
               <div
-                class="w-12 h-12 rounded-full bg-primary-container/20 text-primary flex items-center justify-center mb-space-xs group-hover:scale-110 transition-transform">
+                class="w-12 h-12 rounded-full bg-[#F5F3FF] border border-[#E9E3FB] text-[#5B47E0] flex items-center justify-center mb-space-xs group-hover:scale-110 transition-transform shadow-xs">
                 <span class="material-symbols-outlined text-[26px]">add_a_photo</span>
               </div>
-              <p class="font-label-md text-label-md text-on-surface font-semibold">Tarik &amp; lepas foto di sini</p>
-              <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-2xs">atau <span
-                  class="text-primary underline">klik untuk jelajahi file</span></p>
-              <span class="font-label-sm text-label-sm text-outline mt-space-xs">Format JPG, PNG, WEBP • Maks. 5MB per
+              <p class="font-label-md text-label-md text-[#1A0D3F] font-bold">Tarik &amp; lepas foto di sini</p>
+              <p class="font-body-sm text-body-sm text-[#4A3B75] mt-space-2xs">atau <span
+                  class="text-[#5B47E0] font-semibold underline">klik untuk jelajahi file</span></p>
+              <span class="font-label-sm text-label-sm text-[#7E70A6] mt-space-xs">Format JPG, PNG, WEBP • Maks. 5MB per
                 berkas</span>
             </div>
             <!-- Photo Slots Grid -->
             <div class="grid grid-cols-4 gap-space-sm">
               <!-- Slot 1: Uploaded (Main) -->
-              <div class="relative aspect-square rounded-lg bg-surface-container-high overflow-hidden group">
+              <div class="relative aspect-square rounded-xl bg-[#F6F3FE] border border-[#E9E3FB] overflow-hidden group">
                 <div id="previewPlaceholder"
-                  class="w-full h-full flex flex-col items-center justify-center bg-surface-container text-slate-400 p-2 text-center">
-                  <span class="material-symbols-outlined text-2xl text-slate-500">add_photo_alternate</span>
-                  <span class="font-label-sm text-[9px] mt-0.5 text-slate-400">Pilih Foto</span>
+                  class="w-full h-full flex flex-col items-center justify-center bg-[#F6F3FE] text-[#7E70A6] p-2 text-center">
+                  <span class="material-symbols-outlined text-2xl text-[#5B47E0]">add_photo_alternate</span>
+                  <span class="font-label-sm text-[9px] mt-0.5 text-[#7E70A6] font-medium">Pilih Foto</span>
                 </div>
                 <img id="mainPreviewImg" class="hidden w-full h-full object-cover" alt="Preview foto barang preloved">
                 <div id="badgeUtama"
-                  class="hidden absolute top-1 left-1 bg-tertiary-container/90 text-on-tertiary-container px-1.5 py-0.5 rounded font-label-sm text-[10px] uppercase font-bold tracking-tight">
+                  class="hidden absolute top-1 left-1 bg-[#D1FAE5] text-[#065F46] border border-[#A7F3D0] px-1.5 py-0.5 rounded font-label-sm text-[10px] uppercase font-bold tracking-tight">
                   Utama
                 </div>
                 <button id="btnDeletePreview" aria-label="Hapus Foto Utama"
-                  class="hidden absolute top-1 right-1 w-6 h-6 rounded bg-surface-container-lowest/80 text-error hover:bg-error-container hover:text-on-error-container flex items-center justify-center transition-colors"
+                  class="hidden absolute top-1 right-1 w-6 h-6 rounded-full bg-white/90 text-rose-600 hover:bg-rose-50 border border-rose-200 flex items-center justify-center transition-colors shadow-xs"
                   type="button" onclick="clearPreviewImage();">
                   <span class="material-symbols-outlined text-[14px]">delete</span>
                 </button>
               </div>
               <!-- Slot 2: Empty Add -->
               <div
-                class="aspect-square rounded-lg bg-surface-container flex flex-col items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container-high cursor-pointer transition-colors p-space-xs text-center"
+                class="aspect-square rounded-xl bg-[#FAF8FF] border border-[#E9E3FB] flex flex-col items-center justify-center text-[#7E70A6] hover:text-[#5B47E0] hover:border-[#D6C7FF] hover:bg-white cursor-pointer transition-all p-space-xs text-center shadow-xs"
                 onclick="document.getElementById('productImageInput').click();">
                 <span class="material-symbols-outlined text-[20px]">add</span>
-                <span class="font-label-sm text-[10px] mt-0.5 text-on-surface-variant">Samping</span>
+                <span class="font-label-sm text-[10px] mt-0.5 text-[#4A3B75] font-medium">Samping</span>
               </div>
               <!-- Slot 3: Empty Add -->
               <div
-                class="aspect-square rounded-lg bg-surface-container flex flex-col items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container-high cursor-pointer transition-colors p-space-xs text-center"
+                class="aspect-square rounded-xl bg-[#FAF8FF] border border-[#E9E3FB] flex flex-col items-center justify-center text-[#7E70A6] hover:text-[#5B47E0] hover:border-[#D6C7FF] hover:bg-white cursor-pointer transition-all p-space-xs text-center shadow-xs"
                 onclick="document.getElementById('productImageInput').click();">
                 <span class="material-symbols-outlined text-[20px]">add</span>
-                <span class="font-label-sm text-[10px] mt-0.5 text-on-surface-variant">Detail</span>
+                <span class="font-label-sm text-[10px] mt-0.5 text-[#4A3B75] font-medium">Detail</span>
               </div>
               <!-- Slot 4: Empty Add -->
               <div
-                class="aspect-square rounded-lg bg-surface-container flex flex-col items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container-high cursor-pointer transition-colors p-space-xs text-center"
+                class="aspect-square rounded-xl bg-[#FAF8FF] border border-[#E9E3FB] flex flex-col items-center justify-center text-[#7E70A6] hover:text-[#5B47E0] hover:border-[#D6C7FF] hover:bg-white cursor-pointer transition-all p-space-xs text-center shadow-xs"
                 onclick="document.getElementById('productImageInput').click();">
                 <span class="material-symbols-outlined text-[20px]">add</span>
-                <span class="font-label-sm text-[10px] mt-0.5 text-on-surface-variant">Box/Nota</span>
+                <span class="font-label-sm text-[10px] mt-0.5 text-[#4A3B75] font-medium">Box/Nota</span>
               </div>
             </div>
             <!-- Micro Tip Box -->

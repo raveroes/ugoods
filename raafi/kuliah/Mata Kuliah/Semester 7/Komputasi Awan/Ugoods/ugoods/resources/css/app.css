@@ -19,59 +19,73 @@
     --font-display-hero: 'Space Grotesk', sans-serif;
     --font-headline-lg-mobile: 'Space Grotesk', sans-serif;
 
-    --color-background: #0f131d;
-    --color-surface: #0f131d;
-    --color-surface-dim: #0f131d;
-    --color-surface-bright: #353944;
-    --color-surface-variant: #313540;
-    --color-surface-tint: #c6bfff;
-    --color-surface-container-lowest: #0a0e18;
-    --color-surface-container-low: #171b26;
-    --color-surface-container: #1c1f2a;
-    --color-surface-container-high: #262a35;
-    --color-surface-container-highest: #313540;
+    /* Vibrant Light Mode - Soft Pastel Lavender / Lilac Backdrop */
+    --color-background: #FAF8FF; /* Soft pastel lilac/lavender canvas (no stark white/light-gray) */
+    --color-surface: #ffffff; /* Crisp pure white for cards & elevated panels */
+    --color-surface-dim: #F3EFFF; /* Soft lilac tint */
+    --color-surface-bright: #ffffff;
+    --color-surface-variant: #EBE5FC; /* Warm lilac border/surface */
+    --color-surface-tint: #5B47E0;
+    
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #F6F3FE; /* Warm pastel tinted frame for thumbnails */
+    --color-surface-container: #ffffff; /* Crisp white card */
+    --color-surface-container-high: #F3EFFF; /* Subtle lilac interactive chip */
+    --color-surface-container-highest: #E8E1FB;
 
-    --color-on-background: #dfe2f1;
-    --color-on-surface: #dfe2f1;
-    --color-on-surface-variant: #c8c4d7;
-    --color-inverse-surface: #dfe2f1;
-    --color-inverse-on-surface: #2c303b;
+    /* High-Contrast Rich Text (Deep Dark Indigo / Violet-Slate) */
+    --color-on-background: #1A0D3F; /* Deep saturated violet-slate - maximum readability */
+    --color-on-surface: #1A0D3F; /* Deep saturated violet-slate */
+    --color-on-surface-variant: #4A3B75; /* Saturated deep indigo for subtitles & labels */
+    --color-inverse-surface: #1A0D3F;
+    --color-inverse-on-surface: #FAF8FF;
 
-    --color-outline: #928ea1;
-    --color-outline-variant: #474555;
+    /* Borders & Outlines Tinted with Soft Violet */
+    --color-outline: #7E70A6; /* Medium violet-slate for secondary icons/text */
+    --color-outline-variant: #E4DCFA; /* Visible soft lilac border */
 
-    --color-primary: #c6bfff;
-    --color-on-primary: #2800a0;
-    --color-primary-container: #5b47e0;
-    --color-on-primary-container: #dfdaff;
-    --color-primary-fixed: #e4dfff;
-    --color-primary-fixed-dim: #c6bfff;
-    --color-on-primary-fixed: #160066;
-    --color-on-primary-fixed-variant: #3f23c5;
-    --color-inverse-primary: #5843dc;
+    /* Identitas Brand Utama (Vibrant Solid Brand Purple / Indigo) */
+    --color-primary: #5B47E0;
+    --color-on-primary: #ffffff;
+    --color-primary-container: #5B47E0;
+    --color-on-primary-container: #ffffff;
+    --color-primary-fixed: #EDE9FE;
+    --color-primary-fixed-dim: #DDD6FE;
+    --color-on-primary-fixed: #200E5E;
+    --color-on-primary-fixed-variant: #4330B5;
+    --color-inverse-primary: #4A35D0;
 
-    --color-secondary: #7bd0ff;
-    --color-on-secondary: #00354a;
-    --color-secondary-container: #00a6e0;
-    --color-on-secondary-container: #00374d;
-    --color-secondary-fixed: #c4e7ff;
-    --color-secondary-fixed-dim: #7bd0ff;
-    --color-on-secondary-fixed: #001e2c;
-    --color-on-secondary-fixed-variant: #004c69;
+    /* Warna Sekunder (Sky / Vivid Cyan Accent) */
+    --color-secondary: #0284C7;
+    --color-on-secondary: #ffffff;
+    --color-secondary-container: #E0F2FE;
+    --color-on-secondary-container: #0369A1;
+    --color-secondary-fixed: #E0F2FE;
+    --color-secondary-fixed-dim: #BAE6FD;
+    --color-on-secondary-fixed: #082F49;
+    --color-on-secondary-fixed-variant: #0369A1;
 
-    --color-tertiary: #4edea3;
-    --color-on-tertiary: #003824;
-    --color-tertiary-container: #00704c;
-    --color-on-tertiary-container: #6af7b9;
-    --color-tertiary-fixed: #6ffbbe;
-    --color-tertiary-fixed-dim: #4edea3;
-    --color-on-tertiary-fixed: #002113;
-    --color-on-tertiary-fixed-variant: #005236;
+    /* Status Terverifikasi / KTM (Rich Emerald) */
+    --color-tertiary: #059669;
+    --color-on-tertiary: #ffffff;
+    --color-tertiary-container: #D1FAE5;
+    --color-on-tertiary-container: #065F46;
+    --color-tertiary-fixed: #D1FAE5;
+    --color-tertiary-fixed-dim: #A7F3D0;
+    --color-on-tertiary-fixed: #022C22;
+    --color-on-tertiary-fixed-variant: #047857;
 
-    --color-error: #ffb4ab;
-    --color-on-error: #690005;
-    --color-error-container: #93000a;
-    --color-on-error-container: #ffdad6;
+    /* Status Pending / Warning (Vibrant Amber) */
+    --color-warning: #D97706;
+    --color-on-warning: #ffffff;
+    --color-warning-container: #FEF3C7;
+    --color-on-warning-container: #92400E;
+
+    /* Status Error / Ditolak (Rose Red) */
+    --color-error: #E11D48;
+    --color-on-error: #ffffff;
+    --color-error-container: #FFE4E6;
+    --color-on-error-container: #9F1239;
 
     --spacing-space-2xs: 0.125rem;
     --spacing-space-xs: 0.25rem;
@@ -89,8 +103,8 @@
 
 @layer base {
     body {
-        background-color: var(--color-background, #0f131d);
-        color: var(--color-on-surface, #dfe2f1);
+        background-color: var(--color-background, #FAF8FF);
+        color: var(--color-on-surface, #1A0D3F);
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
 }

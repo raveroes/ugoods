@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="dark" lang="id">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
@@ -29,57 +29,67 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-            darkMode: "class",
             theme: {
                 extend: {
                     colors: {
-                        "secondary-fixed": "#c4e7ff",
-                        "on-secondary": "#00354a",
-                        "on-secondary-fixed-variant": "#004c69",
-                        "tertiary-fixed": "#6ffbbe",
-                        "tertiary-container": "#00704c",
-                        "inverse-surface": "#dfe2f1",
-                        "error": "#ffb4ab",
-                        "surface-container-lowest": "#0a0e18",
-                        "surface-variant": "#313540",
-                        "primary-fixed": "#e4dfff",
-                        "primary-fixed-dim": "#c6bfff",
-                        "on-tertiary": "#003824",
-                        "primary": "#c6bfff",
-                        "surface-container-high": "#262a35",
-                        "on-primary-fixed-variant": "#3f23c5",
-                        "outline": "#928ea1",
-                        "surface-container-low": "#171b26",
-                        "outline-variant": "#474555",
-                        "background": "#0f131d",
-                        "surface-bright": "#353944",
-                        "surface-dim": "#0f131d",
-                        "surface-tint": "#c6bfff",
-                        "on-surface": "#dfe2f1",
-                        "inverse-on-surface": "#2c303b",
-                        "on-tertiary-fixed": "#002113",
-                        "on-tertiary-container": "#6af7b9",
-                        "surface": "#0f131d",
-                        "secondary-container": "#00a6e0",
-                        "surface-container": "#1c1f2a",
-                        "on-secondary-container": "#00374d",
-                        "on-surface-variant": "#c8c4d7",
-                        "on-error-container": "#ffdad6",
-                        "on-tertiary-fixed-variant": "#005236",
-                        "tertiary-fixed-dim": "#4edea3",
-                        "secondary-fixed-dim": "#7bd0ff",
-                        "surface-container-highest": "#313540",
-                        "tertiary": "#4edea3",
-                        "inverse-primary": "#5843dc",
-                        "secondary": "#7bd0ff",
-                        "on-primary-container": "#dfdaff",
-                        "primary-container": "#5b47e0",
-                        "on-background": "#dfe2f1",
-                        "on-primary": "#2800a0",
-                        "on-error": "#690005",
-                        "on-secondary-fixed": "#001e2c",
-                        "on-primary-fixed": "#160066",
-                        "error-container": "#93000a"
+                        "background": "#FAF8FF",
+                        "surface": "#ffffff",
+                        "surface-dim": "#F3EFFF",
+                        "surface-bright": "#ffffff",
+                        "surface-variant": "#EBE5FC",
+                        "surface-tint": "#5B47E0",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#F6F3FE",
+                        "surface-container": "#ffffff",
+                        "surface-container-high": "#F3EFFF",
+                        "surface-container-highest": "#E8E1FB",
+
+                        "on-background": "#1A0D3F",
+                        "on-surface": "#1A0D3F",
+                        "on-surface-variant": "#4A3B75",
+                        "inverse-surface": "#1A0D3F",
+                        "inverse-on-surface": "#FAF8FF",
+
+                        "outline": "#7E70A6",
+                        "outline-variant": "#E4DCFA",
+
+                        "primary": "#5B47E0",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#5B47E0",
+                        "on-primary-container": "#ffffff",
+                        "primary-fixed": "#EDE9FE",
+                        "primary-fixed-dim": "#DDD6FE",
+                        "on-primary-fixed": "#200E5E",
+                        "on-primary-fixed-variant": "#4330B5",
+                        "inverse-primary": "#4A35D0",
+
+                        "secondary": "#0284C7",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#E0F2FE",
+                        "on-secondary-container": "#0369A1",
+                        "secondary-fixed": "#E0F2FE",
+                        "secondary-fixed-dim": "#BAE6FD",
+                        "on-secondary-fixed": "#082F49",
+                        "on-secondary-fixed-variant": "#0369A1",
+
+                        "tertiary": "#059669",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#D1FAE5",
+                        "on-tertiary-container": "#065F46",
+                        "tertiary-fixed": "#D1FAE5",
+                        "tertiary-fixed-dim": "#A7F3D0",
+                        "on-tertiary-fixed": "#022C22",
+                        "on-tertiary-fixed-variant": "#047857",
+
+                        "warning": "#D97706",
+                        "on-warning": "#ffffff",
+                        "warning-container": "#FEF3C7",
+                        "on-warning-container": "#92400E",
+
+                        "error": "#E11D48",
+                        "on-error": "#ffffff",
+                        "error-container": "#FFE4E6",
+                        "on-error-container": "#9F1239"
                     },
                     borderRadius: {
                         "DEFAULT": "0.25rem",
@@ -127,11 +137,16 @@
             body {
                 margin: 0;
                 padding: 0;
-                background-color: #0f131d;
-                color: #dfe2f1;
+                background-color: #FAF8FF;
+                color: #1A0D3F;
                 font-family: 'Plus Jakarta Sans', sans-serif;
             }
         }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
 
         ::-webkit-scrollbar {
             display: none;
@@ -141,7 +156,7 @@
 </head>
 
 <body
-    class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col justify-between selection:bg-primary-container selection:text-on-primary-container">
+    class="bg-background font-body-md text-on-surface antialiased min-h-screen flex flex-col justify-between selection:bg-primary selection:text-white">
 
     @unless($noNavbar ?? false)
         @include('layouts.navigation')

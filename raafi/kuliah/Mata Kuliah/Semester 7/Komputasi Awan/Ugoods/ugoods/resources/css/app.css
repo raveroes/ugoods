@@ -1,0 +1,96 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-headline-md: 'Space Grotesk', sans-serif;
+    --font-display-hero-mobile: 'Space Grotesk', sans-serif;
+    --font-label-sm: 'Plus Jakarta Sans', sans-serif;
+    --font-body-sm: 'Plus Jakarta Sans', sans-serif;
+    --font-body-lg: 'Plus Jakarta Sans', sans-serif;
+    --font-label-md: 'Plus Jakarta Sans', sans-serif;
+    --font-body-md: 'Plus Jakarta Sans', sans-serif;
+    --font-price-display: 'Space Grotesk', sans-serif;
+    --font-headline-lg: 'Space Grotesk', sans-serif;
+    --font-headline-sm: 'Space Grotesk', sans-serif;
+    --font-display-hero: 'Space Grotesk', sans-serif;
+    --font-headline-lg-mobile: 'Space Grotesk', sans-serif;
+
+    --color-background: #0f131d;
+    --color-surface: #0f131d;
+    --color-surface-dim: #0f131d;
+    --color-surface-bright: #353944;
+    --color-surface-variant: #313540;
+    --color-surface-tint: #c6bfff;
+    --color-surface-container-lowest: #0a0e18;
+    --color-surface-container-low: #171b26;
+    --color-surface-container: #1c1f2a;
+    --color-surface-container-high: #262a35;
+    --color-surface-container-highest: #313540;
+
+    --color-on-background: #dfe2f1;
+    --color-on-surface: #dfe2f1;
+    --color-on-surface-variant: #c8c4d7;
+    --color-inverse-surface: #dfe2f1;
+    --color-inverse-on-surface: #2c303b;
+
+    --color-outline: #928ea1;
+    --color-outline-variant: #474555;
+
+    --color-primary: #c6bfff;
+    --color-on-primary: #2800a0;
+    --color-primary-container: #5b47e0;
+    --color-on-primary-container: #dfdaff;
+    --color-primary-fixed: #e4dfff;
+    --color-primary-fixed-dim: #c6bfff;
+    --color-on-primary-fixed: #160066;
+    --color-on-primary-fixed-variant: #3f23c5;
+    --color-inverse-primary: #5843dc;
+
+    --color-secondary: #7bd0ff;
+    --color-on-secondary: #00354a;
+    --color-secondary-container: #00a6e0;
+    --color-on-secondary-container: #00374d;
+    --color-secondary-fixed: #c4e7ff;
+    --color-secondary-fixed-dim: #7bd0ff;
+    --color-on-secondary-fixed: #001e2c;
+    --color-on-secondary-fixed-variant: #004c69;
+
+    --color-tertiary: #4edea3;
+    --color-on-tertiary: #003824;
+    --color-tertiary-container: #00704c;
+    --color-on-tertiary-container: #6af7b9;
+    --color-tertiary-fixed: #6ffbbe;
+    --color-tertiary-fixed-dim: #4edea3;
+    --color-on-tertiary-fixed: #002113;
+    --color-on-tertiary-fixed-variant: #005236;
+
+    --color-error: #ffb4ab;
+    --color-on-error: #690005;
+    --color-error-container: #93000a;
+    --color-on-error-container: #ffdad6;
+
+    --spacing-space-2xs: 0.125rem;
+    --spacing-space-xs: 0.25rem;
+    --spacing-space-sm: 0.5rem;
+    --spacing-space-md: 1rem;
+    --spacing-space-lg: 1.5rem;
+    --spacing-space-xl: 2rem;
+    --spacing-space-2xl: 3rem;
+    --spacing-margin: 1rem;
+    --spacing-margin-tablet: 1.5rem;
+    --spacing-margin-desktop: 2.5rem;
+    --spacing-gutter: 1rem;
+    --spacing-gutter-desktop: 1.5rem;
+}
+
+@layer base {
+    body {
+        background-color: var(--color-background, #0f131d);
+        color: var(--color-on-surface, #dfe2f1);
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}

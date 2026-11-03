@@ -1,0 +1,110 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-headline-md: 'Space Grotesk', sans-serif;
+    --font-display-hero-mobile: 'Space Grotesk', sans-serif;
+    --font-label-sm: 'Plus Jakarta Sans', sans-serif;
+    --font-body-sm: 'Plus Jakarta Sans', sans-serif;
+    --font-body-lg: 'Plus Jakarta Sans', sans-serif;
+    --font-label-md: 'Plus Jakarta Sans', sans-serif;
+    --font-body-md: 'Plus Jakarta Sans', sans-serif;
+    --font-price-display: 'Space Grotesk', sans-serif;
+    --font-headline-lg: 'Space Grotesk', sans-serif;
+    --font-headline-sm: 'Space Grotesk', sans-serif;
+    --font-display-hero: 'Space Grotesk', sans-serif;
+    --font-headline-lg-mobile: 'Space Grotesk', sans-serif;
+
+    /* Vibrant Light Mode - Soft Pastel Lavender / Lilac Backdrop */
+    --color-background: #FAF8FF; /* Soft pastel lilac/lavender canvas (no stark white/light-gray) */
+    --color-surface: #ffffff; /* Crisp pure white for cards & elevated panels */
+    --color-surface-dim: #F3EFFF; /* Soft lilac tint */
+    --color-surface-bright: #ffffff;
+    --color-surface-variant: #EBE5FC; /* Warm lilac border/surface */
+    --color-surface-tint: #5B47E0;
+    
+    --color-surface-container-lowest: #ffffff;
+    --color-surface-container-low: #F6F3FE; /* Warm pastel tinted frame for thumbnails */
+    --color-surface-container: #ffffff; /* Crisp white card */
+    --color-surface-container-high: #F3EFFF; /* Subtle lilac interactive chip */
+    --color-surface-container-highest: #E8E1FB;
+
+    /* High-Contrast Rich Text (Deep Dark Indigo / Violet-Slate) */
+    --color-on-background: #1A0D3F; /* Deep saturated violet-slate - maximum readability */
+    --color-on-surface: #1A0D3F; /* Deep saturated violet-slate */
+    --color-on-surface-variant: #4A3B75; /* Saturated deep indigo for subtitles & labels */
+    --color-inverse-surface: #1A0D3F;
+    --color-inverse-on-surface: #FAF8FF;
+
+    /* Borders & Outlines Tinted with Soft Violet */
+    --color-outline: #7E70A6; /* Medium violet-slate for secondary icons/text */
+    --color-outline-variant: #E4DCFA; /* Visible soft lilac border */
+
+    /* Identitas Brand Utama (Vibrant Solid Brand Purple / Indigo) */
+    --color-primary: #5B47E0;
+    --color-on-primary: #ffffff;
+    --color-primary-container: #5B47E0;
+    --color-on-primary-container: #ffffff;
+    --color-primary-fixed: #EDE9FE;
+    --color-primary-fixed-dim: #DDD6FE;
+    --color-on-primary-fixed: #200E5E;
+    --color-on-primary-fixed-variant: #4330B5;
+    --color-inverse-primary: #4A35D0;
+
+    /* Warna Sekunder (Sky / Vivid Cyan Accent) */
+    --color-secondary: #0284C7;
+    --color-on-secondary: #ffffff;
+    --color-secondary-container: #E0F2FE;
+    --color-on-secondary-container: #0369A1;
+    --color-secondary-fixed: #E0F2FE;
+    --color-secondary-fixed-dim: #BAE6FD;
+    --color-on-secondary-fixed: #082F49;
+    --color-on-secondary-fixed-variant: #0369A1;
+
+    /* Status Terverifikasi / KTM (Rich Emerald) */
+    --color-tertiary: #059669;
+    --color-on-tertiary: #ffffff;
+    --color-tertiary-container: #D1FAE5;
+    --color-on-tertiary-container: #065F46;
+    --color-tertiary-fixed: #D1FAE5;
+    --color-tertiary-fixed-dim: #A7F3D0;
+    --color-on-tertiary-fixed: #022C22;
+    --color-on-tertiary-fixed-variant: #047857;
+
+    /* Status Pending / Warning (Vibrant Amber) */
+    --color-warning: #D97706;
+    --color-on-warning: #ffffff;
+    --color-warning-container: #FEF3C7;
+    --color-on-warning-container: #92400E;
+
+    /* Status Error / Ditolak (Rose Red) */
+    --color-error: #E11D48;
+    --color-on-error: #ffffff;
+    --color-error-container: #FFE4E6;
+    --color-on-error-container: #9F1239;
+
+    --spacing-space-2xs: 0.125rem;
+    --spacing-space-xs: 0.25rem;
+    --spacing-space-sm: 0.5rem;
+    --spacing-space-md: 1rem;
+    --spacing-space-lg: 1.5rem;
+    --spacing-space-xl: 2rem;
+    --spacing-space-2xl: 3rem;
+    --spacing-margin: 1rem;
+    --spacing-margin-tablet: 1.5rem;
+    --spacing-margin-desktop: 2.5rem;
+    --spacing-gutter: 1rem;
+    --spacing-gutter-desktop: 1.5rem;
+}
+
+@layer base {
+    body {
+        background-color: var(--color-background, #FAF8FF);
+        color: var(--color-on-surface, #1A0D3F);
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}

@@ -1,0 +1,613 @@
+<!DOCTYPE html><html class="dark" lang="id" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>ugoods - Campus Thrift Marketplace</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-fixed":"#c4e7ff","on-secondary":"#00354a","on-secondary-fixed-variant":"#004c69","tertiary-fixed":"#6ffbbe","tertiary-container":"#00704c","inverse-surface":"#dfe2f1","error":"#ffb4ab","surface-container-lowest":"#0a0e18","surface-variant":"#313540","primary-fixed":"#e4dfff","primary-fixed-dim":"#c6bfff","on-tertiary":"#003824","primary":"#c6bfff","surface-container-high":"#262a35","on-primary-fixed-variant":"#3f23c5","outline":"#928ea1","surface-container-low":"#171b26","outline-variant":"#474555","background":"#0f131d","surface-bright":"#353944","surface-dim":"#0f131d","surface-tint":"#c6bfff","on-surface":"#dfe2f1","inverse-on-surface":"#2c303b","on-tertiary-fixed":"#002113","on-tertiary-container":"#6af7b9","surface":"#0f131d","secondary-container":"#00a6e0","surface-container":"#1c1f2a","on-secondary-container":"#00374d","on-surface-variant":"#c8c4d7","on-error-container":"#ffdad6","on-tertiary-fixed-variant":"#005236","tertiary-fixed-dim":"#4edea3","secondary-fixed-dim":"#7bd0ff","surface-container-highest":"#313540","tertiary":"#4edea3","inverse-primary":"#5843dc","secondary":"#7bd0ff","on-primary-container":"#dfdaff","primary-container":"#5b47e0","on-background":"#dfe2f1","on-primary":"#2800a0","on-error":"#690005","on-secondary-fixed":"#001e2c","on-primary-fixed":"#160066","error-container":"#93000a"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-2xl":"3rem","space-xs":"0.25rem","margin-desktop":"2.5rem","space-md":"1rem","margin":"1rem","gutter":"1rem","space-xl":"2rem","space-2xs":"0.125rem","space-lg":"1.5rem","margin-tablet":"1.5rem","space-sm":"0.5rem","gutter-desktop":"1.5rem"},"fontFamily":{"headline-md":["Space Grotesk"],"display-hero-mobile":["Space Grotesk"],"label-sm":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"body-md":["Plus Jakarta Sans"],"price-display":["Space Grotesk"],"headline-lg":["Space Grotesk"],"headline-sm":["Space Grotesk"],"display-hero":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"]},"fontSize":{"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-hero-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"700"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"-0.005em","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"price-display":["18px",{"lineHeight":"22px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.02em","fontWeight":"600"}],"headline-sm":["18px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"600"}],"display-hero":["48px",{"lineHeight":"56px","letterSpacing":"-0.03em","fontWeight":"700"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.015em","fontWeight":"600"}]}}}}</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased"><header class="sticky top-0 z-50 bg-[#0B0F19]/90 backdrop-blur-md border-b border-[#1E293B]"><div class="max-w-[1280px] mx-auto px-margin md:px-margin-desktop py-3 flex items-center justify-between gap-gutter-desktop"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center tracking-tight select-none" data-path="beranda" href="#"><span class="text-[#5B47E0] font-bold text-2xl tracking-tight">u</span><span class="text-white font-bold text-2xl tracking-tight">goods</span></a><nav class="hidden lg:flex items-center gap-space-md"><a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" data-path="beranda" href="#">Beranda</a><a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" data-path="kategori" href="#">Kategori</a><a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a><a class="text-slate-300 hover:text-white text-sm font-medium transition-colors" data-path="kontak" href="#">Kontak</a></nav></div><div class="flex-1 max-w-md hidden md:block"><div class="relative flex items-center w-full"><span class="material-symbols-outlined absolute left-3 text-slate-500 text-[18px] pointer-events-none">search</span><input class="w-full bg-[#111827] border border-[#1E293B] rounded-xl pl-9 pr-4 py-2 text-sm text-slate-200 placeholder:text-slate-500 focus:outline-none focus:border-[#5B47E0] transition-colors" placeholder="Cari jaket thrift, kalkulator lab, buku teks..." type="text"></div></div><div class="flex items-center gap-space-sm shrink-0"><button aria-label="Buka Pencarian" class="md:hidden w-10 h-10 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-[#1E293B]/60 transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><a aria-label="Keranjang Belanja" class="relative w-10 h-10 rounded-lg flex items-center justify-center text-slate-300 hover:text-white hover:bg-[#1E293B]/60 transition-colors" data-path="keranjang" href="#"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-1.5 right-1.5 min-w-[16px] h-4 px-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm flex items-center justify-center leading-none ring-2 ring-[#0B0F19]">1</span></a><button aria-expanded="false" aria-haspopup="true" aria-label="Profil Pengguna" class="flex items-center gap-1.5 p-1 rounded-xl hover:bg-[#1E293B]/60 transition-colors" type="button"><div class="w-8 h-8 rounded-full bg-[#5B47E0] text-white font-bold text-xs flex items-center justify-center shrink-0">FD</div><span class="material-symbols-outlined text-slate-400 text-[16px]">expand_more</span></button></div></div></header><main class="w-full bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Navigation & Breadcrumbs -->
+<section class="w-full bg-surface-container-lowest py-space-sm">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-desktop flex items-center justify-between">
+<nav aria-label="Breadcrumb" class="flex items-center gap-space-xs font-label-md text-label-md text-outline">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span class="">Beranda</span>
+</a>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Elektronik</a>
+<span class="material-symbols-outlined text-[14px] text-outline-variant">chevron_right</span>
+<span class="text-on-surface truncate max-w-[200px] sm:max-w-xs md:max-w-md font-medium">Kamera Mirrorless Sony A6100</span>
+</nav>
+<div class="hidden sm:flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary animate-pulse"></span>
+          Listing Aktif
+        </span>
+<span class="text-outline font-label-sm text-label-sm">ID: UGD-8841-JKT</span>
+</div>
+</div>
+</section>
+<!-- Main Product Stage (2-Columns Layout) -->
+<section class="w-full py-space-lg md:py-space-xl">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-desktop grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- LEFT COLUMN: Product Gallery & Guarantee -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<!-- Main Media Card -->
+<div class="relative w-full aspect-[4/3] sm:aspect-square bg-surface-container-low rounded-xl overflow-hidden group shadow-xl">
+<img alt="Sony A6100 Mirrorless Camera" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Modern black Sony A6100 mirrorless camera with compact 16-50mm kit lens attached, mounted on a sleek dark carbon slate table under dramatic cool neon purple and teal studio side rim lighting. Sharp focus on camera dials, brand engraving, and pristine clean optical sensor element in high key detail, modern dark tech product photography." id="mainShowcaseImg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpsOLSxu4fvgtYgwZUNryMHSrF0XYrPXSw8MI4P9mdsxkxtpFR6_LgLoR8Q92KbJEw_Agtj7VbQdHtYTX3ahTMBLxukWXnclxPwWycHJ6Stoi2MyKPsJWKvtLLsA1tRZCJYX8VUzbiWpe4ggED2IzXhujvXmcqG6seK1AATwHhUbioCOQTnM7R8a3mD5qsrjzgGWBizShNhWSh9YF57Zt0P2ACcIH_PvW2un2FBaoAt-ksXwEI_28">
+<!-- Ambient overlay for badge contrast -->
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 via-transparent to-surface-container-lowest/40 pointer-events-none"></div>
+<!-- Top Status Badges -->
+<div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high/90 backdrop-blur-md text-tertiary font-label-md text-label-md shadow-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+              Kondisi: 9/10 Like New
+            </span>
+<span class="inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-primary-container/90 backdrop-blur-md text-on-primary-container font-label-md text-label-md shadow-md"><span class="material-symbols-outlined text-[16px]">verified_user</span> Garansi Pembayaran Midtrans</span>
+</div>
+<!-- Zoom Hint Overlay Button -->
+<div class="absolute bottom-4 right-4 pointer-events-none">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container-lowest/80 backdrop-blur-md text-outline font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px]">zoom_in</span>
+              Klik untuk resolusi penuh
+            </span>
+</div>
+</div>
+<!-- Interactive Thumbnails -->
+<div class="grid grid-cols-3 gap-space-sm" id="thumbGallery">
+<button aria-label="Tampilan Depan Kamera" class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low p-1 text-left transition-all ring-2 ring-primary-container" onclick="updateGallery(0, this)" type="button">
+<img alt="Front View" class="w-full h-full object-cover rounded" data-alt="Sony A6100 mirrorless camera front angle view showing clean chassis, hand grip texture, shutter button, and mounted 16-50mm kit lens in high detail against dark backdrop with subtle purple backlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6K--NUyPQRrwTIVfLD442vtKAiKxcuQM3KOJNS4q5Dln5hSj3-rRXKonr5azH9U7BJMEXy_-f1pZUSJFnM1ufLmrMTExJLbmBpB3OH2x2bWxVIj2D8nsKbPfh0LQCNXaXcSL9ZCZ8VxETi6f_57PlMYQVfR7Mnsy2virY1FjYIt03ScsrsM9UITBoE_3tTm1_qMRJU8AFOrwe6RrH1xMJWPo_-MwzkI3mSKIbZboDboI2fN1oPWE">
+<span class="absolute bottom-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface">Depan</span>
+</button>
+<button aria-label="Tampilan Sensor &amp; Lensa Close-up" class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low p-1 text-left transition-all hover:bg-surface-container" onclick="updateGallery(1, this)" type="button">
+<img alt="Sensor &amp; Lens Macro" class="w-full h-full object-cover rounded" data-alt="Macro close-up shot of Sony APS-C camera sensor gleaming iridescent clean without dust, exposed lens mount bayonet and contact pins under cool studio glow." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEGrbIf9ucj6ou3pl8OHcI0Pimwyaqh1hqkjAOG7ZgeeSdyoSX6mYVXHv2014tDO-uOhXKi6ZxEhY4U4bJ7Dhv8aAvTEm3QA1aQeWm-tRQWFEseMRbH7gJLFd3cUQvymknecwID7N9kYAvfba1Rs6QYRGii2kmQOCZ60nt4WLTVTGcbe84clNtoSXpBeHDsWF-T5jhzVCsLtULa1d48OcAurzY37lvov59Kc0m1MhJa7p5zquqrMk">
+<span class="absolute bottom-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface">Sensor</span>
+</button>
+<button aria-label="Kelengkapan Full Box &amp; Aksesoris" class="thumb-btn relative aspect-square rounded-lg overflow-hidden bg-surface-container-low p-1 text-left transition-all hover:bg-surface-container" onclick="updateGallery(2, this)" type="button">
+<img alt="Full Box Kit" class="w-full h-full object-cover rounded" data-alt="Full original box kit of Sony A6100 arranged flat-lay on dark surface: retail orange-black box, dual slot battery charger, two original Sony batteries, original woven camera neckstrap, and manual booklets." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbjNvN7P7WlqzmoZGR8NwrwZTznTK-LYsAeJXoZVjKV0Y-VpHu7o5r4-MsuPi1v4EmTu7XB1VRIe-uCiU4Y-10RNqgJp8msPcwdZlmdB-9UXey3IbGG3F35NMK1Y_n8fnMNppwmYa3hKaBrKeKLV1Fsl-a6Uxmuhc0hZndKuMOY83kkx8PRBX0KoxV99u94u8VYYiiogaCEQSCvq9URX0Qe_yweRgmcgzgY3F3bizPLuFd2NWWJHg">
+<span class="absolute bottom-1.5 left-1.5 px-1.5 py-0.5 rounded bg-surface-container-lowest/90 font-label-sm text-label-sm text-on-surface">Full Box</span>
+</button>
+</div>
+<!-- Campus Safety Trust Micro-banner -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex items-start gap-space-sm shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-tertiary-container/20 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-tertiary text-[22px]">verified</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<span class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1.5">
+              Proteksi Uang Kembali 100% Kampus
+              <span class="px-1.5 py-0.5 rounded bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-bold">Auto-Refund</span>
+</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Transaksi diverifikasi otomatis via Midtrans Gateway dengan garansi mahasiswa terverifikasi KTM saat COD.</p>
+</div>
+</div>
+<!-- Campus Verification Specs Badge -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary text-[20px]">pin_drop</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">Zona Pertemuan</span>
+<span class="font-label-md text-label-md text-on-surface truncate">Polimedia Srengseng</span>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">shutter_speed</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-outline">Shutter Count</span>
+<span class="font-label-md text-label-md text-on-surface">3.200 (Low SC)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Purchase Details & Action Drawer -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<!-- Header Info Block -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary tracking-wide uppercase font-semibold">
+              Elektronik &amp; Multimedia
+            </span>
+<div class="flex items-center gap-space-xs">
+<button aria-label="Bagikan Produk" class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+<button aria-label="Laporkan Produk" class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-outline hover:text-error transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">flag</span>
+</button>
+</div>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface pt-space-xs">
+            Kamera Mirrorless Sony A6100 Kit 16-50mm
+          </h1>
+<!-- Rating & Sale Meta -->
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-2 pt-1 font-label-md text-label-md">
+<div class="flex items-center gap-1 text-amber-400">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-bold text-on-surface">4.7</span>
+<span class="text-outline font-normal">(42 ulasan mahasiswa)</span>
+</div>
+<div class="w-1 h-1 rounded-full bg-outline-variant"></div>
+<span class="text-on-surface-variant font-medium">Diposting 2 hari lalu</span>
+<div class="w-1 h-1 rounded-full bg-outline-variant"></div>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+              COD Siap Hari Ini
+            </span>
+</div>
+</div>
+<!-- Price Section -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs shadow-md"><div class="flex items-center justify-between flex-wrap gap-2"><span class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Harga Spesial Mahasiswa</span><span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber-400/10 border border-amber-400/30 text-amber-400 font-label-sm text-label-sm font-semibold"><span class="material-symbols-outlined text-[14px]">bolt</span><span class="">Sisa 1 Unit (Barang Preloved)</span></span></div><div class="flex items-baseline gap-space-sm flex-wrap"><span class="font-price-display text-[32px] leading-tight text-primary font-bold tracking-tight">Rp 4.224.000</span><span class="font-body-md text-body-md line-through text-outline">Rp 4.800.000</span><span class="px-2.5 py-1 rounded-md bg-error-container text-on-error-container font-label-sm text-label-sm font-bold">-12% Hemat Rp 576.000</span></div><div class="flex items-center gap-2 pt-1 font-body-sm text-body-sm text-tertiary"><span class="material-symbols-outlined text-[16px]">savings</span><span class="">Lebih hemat 45% dibanding beli kamera baru di mall!</span></div></div>
+<!-- Seller Profile Card -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-sm shadow-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest flex items-center justify-center overflow-hidden">
+<span class="material-symbols-outlined text-primary text-[28px]">account_circle</span>
+</div>
+<span class="absolute bottom-0 right-0 w-3.5 h-3.5 rounded-full bg-tertiary ring-2 ring-surface-container-low" title="Sedang Online"></span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface">Fahri Dwi</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container/20 text-secondary font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[12px]">school</span> Desain Grafis '22
+                  </span>
+</div>
+<span class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+                  Mahasiswa Terverifikasi Polimedia
+                </span>
+</div>
+</div>
+<a class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface hover:bg-surface-bright font-label-sm text-label-sm transition-colors" href="#">
+              Lihat Profil
+            </a>
+</div>
+<div class="pt-space-xs flex flex-col gap-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[16px] shrink-0">location_on</span>
+<span class="text-on-surface font-medium">Titik Temu COD:</span>
+<span class="truncate">Gedung Kuliah 3 - Polimedia (Lobi Utama)</span>
+</div>
+<div class="flex items-center gap-space-md text-outline font-label-sm text-label-sm pl-6">
+<span class="">⭐ Rating Toko 4.9 (88 Review)</span>
+<span class="">•</span>
+<span class="text-tertiary">⚡ Responsif (&lt; 10 menit)</span>
+</div>
+</div>
+</div>
+<!-- Handover & Delivery Option Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center justify-between">
+<span class="">Metode Pengambilan Barang</span>
+<span class="text-outline font-label-sm text-label-sm">Pilih 1 Opsi</span>
+</label>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm" id="handoverGroup">
+<!-- Option 1: Campus COD (Default Selected) -->
+<button class="delivery-opt p-space-sm rounded-xl bg-surface-container text-left transition-all ring-2 ring-primary-container flex flex-col justify-between gap-2 cursor-pointer shadow-sm" data-selected="true" onclick="selectDelivery(this)" type="button">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-1.5 text-on-surface font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-secondary text-[18px]">handshake</span>
+<span class="">COD di Kampus</span>
+</div>
+<span class="px-1.5 py-0.5 rounded bg-tertiary-container/30 text-tertiary font-label-sm text-label-sm font-bold">Bebas Ongkir</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline leading-tight">
+                Ketemuan aman di Lobi Gedung Kuliah atau Kantin Kreatif.
+              </p>
+</button>
+<!-- Option 2: Antar Kos -->
+<button class="delivery-opt p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-container text-left transition-all flex flex-col justify-between gap-2 cursor-pointer shadow-sm" data-selected="false" onclick="selectDelivery(this)" type="button">
+<div class="flex items-start justify-between">
+<div class="flex items-center gap-1.5 text-on-surface font-label-md text-label-md font-semibold">
+<span class="material-symbols-outlined text-primary text-[18px]">local_shipping</span>
+<span class="">Antar ke Kos</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-bold">+Rp 5.000</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline leading-tight">
+                Radius maksimal 3km dari gerbang kampus via sesama mahasiswa.
+              </p>
+</button>
+</div>
+</div>
+<!-- Sticky Purchase CTA Action Bar -->
+<div class="pt-space-xs flex flex-col gap-space-xs"><div class="flex flex-col gap-space-sm"><button class="w-full h-12 rounded-xl bg-primary-container hover:bg-primary-container/90 active:scale-[0.99] text-on-primary-container font-headline-sm text-headline-sm font-bold flex items-center justify-center gap-2 shadow-lg shadow-primary-container/30 transition-all" onclick="triggerAction('buy')" type="button"><span class="material-symbols-outlined text-[22px]">lock_reset</span><span class="">Beli Sekarang</span></button><div class="grid grid-cols-12 gap-space-xs sm:gap-space-sm"><button class="col-span-5 sm:col-span-6 h-11 px-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high border border-outline-variant/30 text-on-surface font-label-md text-label-md font-semibold flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="triggerAction('cart')" type="button"><span class="material-symbols-outlined text-[18px]">add_shopping_cart</span><span class="">+ Keranjang</span></button><button class="col-span-5 sm:col-span-4 h-11 px-space-sm rounded-xl bg-surface-container hover:bg-surface-container-high border border-outline-variant/30 text-on-surface-variant hover:text-on-surface font-label-md text-label-md font-semibold flex items-center justify-center gap-1.5 transition-colors shadow-sm" onclick="triggerAction('chat')" type="button"><span class="material-symbols-outlined text-[18px] text-primary">chat</span><span class="truncate">Chat Penjual</span></button></div></div></div>
+</div>
+</div>
+</section>
+<!-- Interactive Accordion / Tabbed Specifications Section -->
+<section class="w-full py-space-xl bg-surface-container-lowest">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-desktop">
+<div class="p-space-lg rounded-xl bg-surface-container-low shadow-md">
+<!-- Tab Bar -->
+<div class="flex items-center gap-space-sm overflow-x-auto pb-space-sm mb-space-md scrollbar-none" id="infoTabs">
+<button class="tab-trigger px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-semibold whitespace-nowrap transition-colors" onclick="switchTab('deskripsi', this)" type="button">
+            Deskripsi Produk
+          </button>
+<button class="tab-trigger px-space-md py-space-xs rounded-full bg-surface-container text-outline hover:text-on-surface font-label-md text-label-md font-medium whitespace-nowrap transition-colors" onclick="switchTab('kelengkapan', this)" type="button">
+            Kelengkapan Unit
+          </button>
+<button class="tab-trigger px-space-md py-space-xs rounded-full bg-surface-container text-outline hover:text-on-surface font-label-md text-label-md font-medium whitespace-nowrap transition-colors" onclick="switchTab('panduan', this)" type="button">
+            Panduan Aman COD Kampus
+          </button>
+</div>
+<!-- Tab Content 1: Deskripsi & Spesifikasi -->
+<div class="tab-panel flex flex-col gap-space-md" id="tab-deskripsi">
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cerita &amp; Kondisi Pemakaian</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              Dijual kamera kesayangan Sony A6100 pemakaian kuliah semester 3-4 DKV. Shutter count tergolong sangat rendah, baru sekitar 3.200 jepretan dari batas daya tahan 200.000 jepretan. Sensor dijamin bersih kinclong tanpa jamur maupun baret, autofokus mata super cepat (real-time eye tracking), dan rekaman video 4K jernih tanpa overheating. Alasan jual: ganti gear untuk tugas akhir video cinema semester depan.
+            </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md pt-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-primary font-bold">Ringkasan Spesifikasi Teknis</span>
+<ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface">
+<li class="flex items-start justify-between py-1">
+<span class="text-outline">Sensor Kamera</span>
+<span class="text-right font-medium">24.2 MP APS-C Exmor CMOS</span>
+</li>
+<li class="flex items-start justify-between py-1">
+<span class="text-outline">Autofokus Sistem</span>
+<span class="text-right font-medium">425 Titik Phase-Detection Eye AF</span>
+</li>
+<li class="flex items-start justify-between py-1">
+<span class="text-outline">Resolusi Video</span>
+<span class="text-right font-medium">4K HDR (24/30p) No Crop</span>
+</li>
+<li class="flex items-start justify-between py-1">
+<span class="text-outline">Tipe Layar</span>
+<span class="text-right font-medium">180° Flip Touchscreen</span>
+</li>
+</ul>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-tertiary font-bold">Catatan Kejujuran Fisik</span>
+<ul class="flex flex-col gap-space-xs font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check</span>
+                  Karet grip kencang tidak melar sama sekali.
+                </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check</span>
+                  Layar sudah terpasang tempered glass sejak hari pertama beli.
+                </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary text-[18px]">check</span>
+                  Tombol dan dial roda putar berfungsi 100% tactile empuk.
+                </li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">info</span>
+                  Goresan mikroskopis pemakaian normal di bawah ulir tripod (tidak terlihat).
+                </li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Tab Content 2: Kelengkapan Unit -->
+<div class="tab-panel hidden flex flex-col gap-space-md" id="tab-kelengkapan">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Daftar Paket yang Didapat</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">photo_camera</span>
+<span class="font-label-md text-label-md text-on-surface">Body Sony Alpha A6100 Black</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">center_focus_strong</span>
+<span class="font-label-md text-label-md text-on-surface">Lensa Kit 16-50mm f/3.5-5.6 OSS</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">battery_charging_full</span>
+<span class="font-label-md text-label-md text-on-surface">2x Baterai Original Sony NP-FW50</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">power</span>
+<span class="font-label-md text-label-md text-on-surface">Charger Dual-Slot Eksternal USB-C</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">style</span>
+<span class="font-label-md text-label-md text-on-surface">Strap Leher Orisinal Sony Alpha</span>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[22px]">inventory_2</span>
+<span class="font-label-md text-label-md text-on-surface">Dus Box Asli, Buku Panduan, &amp; Nota</span>
+</div>
+</div>
+</div>
+<!-- Tab Content 3: Panduan Aman COD -->
+<div class="tab-panel hidden flex flex-col gap-space-sm" id="tab-panduan">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Protokol COD ugoods Polimedia</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Demi keselamatan bersama mahasiswa, patuhi panduan ringkas berikut:
+          </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-secondary">01. Lokasi Terang</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Lakukan serah terima di titik rekomendasi: Lobi Gedung Kuliah Terpadu atau Kantin Kreatif saat jam ramai kuliah.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-tertiary">02. Cek Fungsi 10 Menit</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bawa memori card sendiri untuk tes shutter, slot baterai, flash, dan hasil foto sebelum menekan tombol terima.</p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-primary">03. Konfirmasi di Aplikasi</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Setelah puas dengan kondisi barang, tekan tombol "Konfirmasi Terima" agar dana rekber diteruskan ke penjual.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bottom Section: Produk Serupa untuk Kebutuhan Kuliah (4-Column Grid) -->
+<section class="w-full py-space-2xl bg-background">
+<div class="max-w-[1280px] mx-auto px-margin md:px-margin-desktop flex flex-col gap-space-lg">
+<!-- Section Header -->
+<div class="flex flex-col sm:flex-row sm:items-end justify-between gap-space-xs">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Gear Pendukung Kreatif</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Produk Serupa untuk Kuliah</h2>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary hover:text-on-surface transition-colors" href="#">
+<span class="">Lihat Semua Gear Multimedia</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- 4-Card Responsive Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop">
+<!-- CARD 1: Lensa Sony 50mm -->
+<div class="group relative flex flex-col rounded-xl bg-surface-container-low overflow-hidden shadow-md transition-all duration-300 hover:bg-surface-container">
+<div class="relative w-full aspect-square overflow-hidden bg-surface-container-lowest">
+<img alt="Lensa Sony 50mm f/1.8" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Sony E 50mm f1.8 OSS prime lens black cylinder metal body standing on dark minimal reflection surface with soft violet accent light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2nAbOeyDZfKfQWYAHTKR5rQ1PtnRq1EGkVVFMiKKKlzlRpBwfczSzpUgjgPkdCePrNDO0Z7gpDjIxYhMrCNqeIxYJ-ZeoUbcjz1WA89-PoENU4hGkmdh-V4B-wz1DxCMjVgbEg9OHVERMsm0PxtJsarXIxgBwd8QpIfjoV7yneTcKVHv0wIpk9FTvMlD9Zji3SKCuq4vWotaU53-wjX7yiuUMGR8_n-EmH6fRjYk_GROjka3Yl2I">
+<span class="absolute top-3 left-3 px-2 py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-bold">
+              -15%
+            </span>
+<button aria-label="Wishlist Lensa" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur text-outline hover:text-error flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-container/80 backdrop-blur text-on-tertiary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[12px]">handshake</span> COD Kampus
+              </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1 text-amber-400 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-bold text-on-surface">4.9</span>
+<span class="text-outline">(18)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">
+                Lensa Sony 50mm f/1.8 OSS
+              </h3>
+<span class="font-body-sm text-body-sm text-outline">UI Depok • Siap Tes</span>
+</div>
+<div class="flex flex-col gap-space-xs pt-1">
+<div class="flex items-baseline gap-2">
+<span class="font-price-display text-price-display text-on-surface font-bold">Rp 2.450.000</span>
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 2.900.000</span>
+</div>
+<button class="w-full py-2 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1.5 shadow-sm" onclick="triggerCardAdd(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span class="">+ Keranjang</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 2: Tripod Beike Carbon Fiber -->
+<div class="group relative flex flex-col rounded-xl bg-surface-container-low overflow-hidden shadow-md transition-all duration-300 hover:bg-surface-container">
+<div class="relative w-full aspect-square overflow-hidden bg-surface-container-lowest">
+<img alt="Tripod Beike Carbon Fiber" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Beike lightweight carbon fiber photography tripod extended partially with professional ball head against dark studio background with subtle cyan rim light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAddKEtRgPan9nIWKIOp1AwlD7b4yTcaakVFEWro602LV8gGldQ_5mOl21_7qDHAZfHi2RJAw_xD_uarUrHWrTYwwL7xx3uXyr0Gs-y0sHT6s98HmhaERfak7CtMrOsZk0M137J-MhcbPtghQFyUHdWdyaA3Iec5wGxSN8hbW2zaNZaGI85-Mr7DLFPeixwhVEKkProF5ShaXTUqcBsDhlRAw8q3Y32PTfCDAxewEE1Snq6jf4UdFU">
+<span class="absolute top-3 left-3 px-2 py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-bold">
+              -15%
+            </span>
+<button aria-label="Wishlist Tripod" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur text-outline hover:text-error flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-container/80 backdrop-blur text-on-tertiary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[12px]">handshake</span> COD Kampus
+              </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1 text-amber-400 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-bold text-on-surface">4.8</span>
+<span class="text-outline">(29)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">
+                Tripod Beike Carbon Fiber
+              </h3>
+<span class="font-body-sm text-body-sm text-outline">Polimedia • Gedung Kuliah</span>
+</div>
+<div class="flex flex-col gap-space-xs pt-1">
+<div class="flex items-baseline gap-2">
+<span class="font-price-display text-price-display text-on-surface font-bold">Rp 380.000</span>
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 450.000</span>
+</div>
+<button class="w-full py-2 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1.5 shadow-sm" onclick="triggerCardAdd(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span class="">+ Keranjang</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 3: Mic Wireless Boya BY-V2 -->
+<div class="group relative flex flex-col rounded-xl bg-surface-container-low overflow-hidden shadow-md transition-all duration-300 hover:bg-surface-container">
+<div class="relative w-full aspect-square overflow-hidden bg-surface-container-lowest">
+<img alt="Mic Wireless Boya BY-V2" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="Boya BY-V2 compact dual wireless lavalier clip microphone kit with USB-C smartphone receiver displayed on dark textured matte surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAk3Q8pu8yowaAcADLzjdMinbOf2ot4nSsDjsw_WgxEwPWDujuWewqfSSzXO_J1cOvphAlWhAdG6v0uwpRJmgbWoZxhhc0a5PlMG5cVFYi2y94dlWcwpahAnt7fidcBdLzilDROXGCqfBlaUeCrACdYbFx7m4CifywxSweXijn_X-ei55az_VeWVQUNVsG6Q9NNMptEzt5CUJJUAulnfuL8z9YhreFf0hSdCfqUFYzrdK5iOXzfIO8">
+<span class="absolute top-3 left-3 px-2 py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-bold">
+              -17%
+            </span>
+<button aria-label="Wishlist Mic" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur text-outline hover:text-error flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-container/80 backdrop-blur text-on-tertiary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[12px]">handshake</span> COD Kampus
+              </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1 text-amber-400 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-bold text-on-surface">4.6</span>
+<span class="text-outline">(34)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">
+                Mic Wireless Boya BY-V2 Dual
+              </h3>
+<span class="font-body-sm text-body-sm text-outline">Polimedia • Kantin Utama</span>
+</div>
+<div class="flex flex-col gap-space-xs pt-1">
+<div class="flex items-baseline gap-2">
+<span class="font-price-display text-price-display text-on-surface font-bold">Rp 290.000</span>
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 350.000</span>
+</div>
+<button class="w-full py-2 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1.5 shadow-sm" onclick="triggerCardAdd(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span class="">+ Keranjang</span>
+</button>
+</div>
+</div>
+</div>
+<!-- CARD 4: SD Card SanDisk Extreme Pro 128GB -->
+<div class="group relative flex flex-col rounded-xl bg-surface-container-low overflow-hidden shadow-md transition-all duration-300 hover:bg-surface-container">
+<div class="relative w-full aspect-square overflow-hidden bg-surface-container-lowest">
+<img alt="SD Card SanDisk 128GB" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="SanDisk Extreme Pro 128GB SDXC UHS-I V30 memory card with gold and red lettering lying flat under clean dramatic spotlight against dark slate background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7cbWjEYq0MEwxKWbx2ro68q2dnTJY-knIrd-E5A-Sii6vvhSV02DQIOAMNev7q22cqVZZlj4jI01oZclPInqOZ146IfKqX8J-ETs-Nx7mp5V54l9It4vC8nMJ9LpOZ0tld3B_kC1leGaqTtfGkkLJdDo5yTOmTbRTY3UWKsLtS28lccvSfxpTRH4qSElfkAaKX3Ne5ih5DozZZ7MMr6XftcX5s02VsHS1cKUR0WnwvGFFv0RFNVY">
+<span class="absolute top-3 left-3 px-2 py-1 rounded bg-error-container text-on-error-container font-label-sm text-label-sm font-bold">
+              -17%
+            </span>
+<button aria-label="Wishlist SD Card" class="absolute top-3 right-3 w-8 h-8 rounded-full bg-surface-container-lowest/80 backdrop-blur text-outline hover:text-error flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">favorite</span>
+</button>
+<div class="absolute bottom-2 left-2">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded bg-tertiary-container/80 backdrop-blur text-on-tertiary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[12px]">handshake</span> COD Kampus
+              </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-sm">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-1 text-amber-400 font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+<span class="font-bold text-on-surface">5.0</span>
+<span class="text-outline">(63)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors">
+                SanDisk Extreme Pro 128GB
+              </h3>
+<span class="font-body-sm text-body-sm text-outline">PNJ Depok • Siap COD</span>
+</div>
+<div class="flex flex-col gap-space-xs pt-1">
+<div class="flex items-baseline gap-2">
+<span class="font-price-display text-price-display text-on-surface font-bold">Rp 215.000</span>
+<span class="font-body-sm text-body-sm line-through text-outline">Rp 260.000</span>
+</div>
+<button class="w-full py-2 rounded-lg bg-surface-container hover:bg-primary-container hover:text-on-primary-container text-on-surface font-label-md text-label-md font-semibold transition-colors flex items-center justify-center gap-1.5 shadow-sm" onclick="triggerCardAdd(this)" type="button">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span class="">+ Keranjang</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Client Behavior Scripts -->
+<script>
+    // Gallery Switcher
+    function updateGallery(index, el) {
+      const showcaseImg = document.getElementById('mainShowcaseImg');
+      const thumbBtns = document.querySelectorAll('#thumbGallery .thumb-btn');
+      
+      thumbBtns.forEach(btn => {
+        btn.classList.remove('ring-2', 'ring-primary-container');
+        btn.classList.add('hover:bg-surface-container');
+      });
+      el.classList.add('ring-2', 'ring-primary-container');
+      el.classList.remove('hover:bg-surface-container');
+
+      // Subtle animation feedback
+      showcaseImg.classList.add('opacity-70');
+      setTimeout(() => {
+        showcaseImg.classList.remove('opacity-70');
+      }, 150);
+    }
+
+    // Delivery Option Switcher
+    function selectDelivery(el) {
+      const options = document.querySelectorAll('.delivery-opt');
+      options.forEach(opt => {
+        opt.classList.remove('ring-2', 'ring-primary-container', 'bg-surface-container');
+        opt.classList.add('bg-surface-container-low');
+        opt.setAttribute('data-selected', 'false');
+      });
+      el.classList.remove('bg-surface-container-low');
+      el.classList.add('ring-2', 'ring-primary-container', 'bg-surface-container');
+      el.setAttribute('data-selected', 'true');
+    }
+
+    // Tab Switcher
+    function switchTab(tabId, el) {
+      const triggers = document.querySelectorAll('#infoTabs .tab-trigger');
+      triggers.forEach(t => {
+        t.classList.remove('bg-primary-container', 'text-on-primary-container');
+        t.classList.add('bg-surface-container', 'text-outline');
+      });
+      el.classList.remove('bg-surface-container', 'text-outline');
+      el.classList.add('bg-primary-container', 'text-on-primary-container');
+
+      const panels = document.querySelectorAll('.tab-panel');
+      panels.forEach(p => p.classList.add('hidden'));
+      const activePanel = document.getElementById('tab-' + tabId);
+      if (activePanel) {
+        activePanel.classList.remove('hidden');
+      }
+    }
+
+    // Wishlist Heart Toggle
+    function toggleWishlist(btn) {
+      const icon = btn.querySelector('#wishlistIcon');
+      const isFav = icon.getAttribute('style')?.includes("'FILL' 1");
+      if (isFav) {
+        icon.style.fontVariationSettings = "'FILL' 0";
+        btn.classList.remove('text-error');
+        btn.classList.add('text-outline');
+      } else {
+        icon.style.fontVariationSettings = "'FILL' 1";
+        btn.classList.remove('text-outline');
+        btn.classList.add('text-error');
+      }
+    }
+
+    // Cart Button Feedback
+    function triggerCardAdd(btn) {
+      const originalText = btn.innerHTML;
+      btn.innerHTML = '<span class="material-symbols-outlined text-[16px] text-tertiary">check</span><span class="text-tertiary">Ditambahkan</span>';
+      btn.classList.add('bg-surface-container-highest');
+      setTimeout(() => {
+        btn.innerHTML = originalText;
+        btn.classList.remove('bg-surface-container-highest');
+      }, 1400);
+    }
+
+    function triggerAction(action) {
+      if (action === 'buy') {
+        alert('Menuju Checkout Rekber: Kamera Sony A6100 (COD Kampus)');
+      } else if (action === 'cart') {
+        alert('Produk ditambahkan ke keranjang belanja kampus!');
+      } else if (action === 'chat') {
+        alert('Membuka obrolan langsung dengan Fahri Dwi (Desain Grafis 22)...');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-surface-variant"><div class="max-w-[1280px] mx-auto px-margin-desktop py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-desktop"><div class="flex flex-col gap-space-sm"><div class="flex items-center"><span class="text-primary-container font-headline-md text-headline-md font-bold">u</span><span class="text-on-surface font-headline-md text-headline-md font-bold">goods</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Platform peer-to-peer re-commerce mahasiswa Indonesia. Aman, hemat, dan terverifikasi untuk transaksi preloved antar sivitas kampus.</p><div class="flex items-center gap-space-xs pt-space-xs"><span class="material-symbols-outlined text-tertiary text-[18px]">verified</span><span class="font-label-sm text-label-sm text-tertiary">Polimedia Student Verified Hub</span></div></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-on-surface">Tautan Cepat</h4><ul class="flex flex-col gap-space-xs"><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="katalog-kampus" href="#">Katalog Kampus</a></li><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="jual-barang" href="#">Pasang Iklan / Jual</a></li><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="panduan-mahasiswa" href="#">Panduan Pembeli &amp; Penjual</a></li><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#">Pertanyaan Umum (FAQ)</a></li></ul></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-on-surface">Layanan &amp; Keamanan</h4><ul class="flex flex-col gap-space-xs"><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="rekber-kampus" href="#">Keamanan Transaksi Midtrans</a></li><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="verifikasi-ktm" href="#">Verifikasi KTM Mahasiswa</a></li><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="syarat-ketentuan" href="#">Syarat &amp; Ketentuan</a></li><li class="nav-item"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="kebijakan-privasi" href="#">Kebijakan Privasi</a></li></ul></div><div class="flex flex-col gap-space-sm"><h4 class="font-headline-sm text-headline-sm text-on-surface">Titik COD Kampus</h4><div class="p-space-sm rounded-xl bg-surface-container-low border border-surface-variant flex flex-col gap-space-2xs"><span class="font-label-md text-label-md text-on-surface flex items-center gap-space-xs"><span class="material-symbols-outlined text-secondary text-[16px]">location_on</span>Polimedia Kreatif Srengseng</span><p class="font-body-sm text-body-sm text-on-surface-variant">Tersedia spot serah-terima COD aman di Gedung Kuliah Terpadu &amp; Kantin Kreatif setiap hari perkuliahan.</p></div><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Instagram" class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">alternate_email</span></a><a aria-label="Chat Bantuan" class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">chat</span></a><a aria-label="Komunitas Kampus" class="w-9 h-9 rounded-lg bg-surface-container flex items-center justify-center text-outline hover:text-on-surface hover:bg-surface-container-high transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">forum</span></a></div></div></div><div class="mt-space-xl pt-space-md border-t border-surface-variant flex flex-col md:flex-row items-center justify-between gap-space-sm"><p class="font-body-sm text-body-sm text-outline">© 2025 ugoods Indonesia. Dirancang untuk mahasiswa Polimedia &amp; universitas mitra.</p><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-outline">100% Bebas Biaya Layanan Kampus</span></div></div></div></footer>
+
+
+
+
+
+
+</body></html>
